@@ -4,6 +4,7 @@ const initialState = {
     formData: {
         username: '',
         email: '',
+        password: '',
     },
 };
 
