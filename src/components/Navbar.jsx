@@ -15,12 +15,11 @@ const Navbar =()=>{
                 <li>
                     <Link to="/default">Default</Link>
                 </li>
-           
                 <li>
-                    <Link to="/product">Product</Link>
+                    <Link to="/forms">Login Form</Link>
                 </li>
                 <li>
-                    <Link to="/forms">Login</Link>
+                    <Link to="/product">Product</Link>
                 </li>
                 <li>
                     <Link to="/home">Product list</Link>
