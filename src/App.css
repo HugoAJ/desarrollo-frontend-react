@@ -153,3 +153,53 @@ form div input {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+/*landingpage style*/
+.fondov{
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.titulo1 {
+  background-color: #5BA04C;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.titulo2 {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.linea {
+  width: 100%;
+  height: 4px;
+  background-color: #5BA04C;
+  margin: 8px 0;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tabla td {
+  vertical-align: top;
+  padding: 8px;
+}
+
+.piepag {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+.piepag .linea {
+  width: 100%;
+  height: 1px;
+  background-color: #5BA04C;
+  margin: 8px 0;
+}
