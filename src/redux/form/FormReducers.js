@@ -1,4 +1,5 @@
 import { SET_FORM_DATA } from './FormTypes';
+import { CLEAN_FORM_DATA } from './FormTypes';
 
 const initialState = {
     formData: {
@@ -7,6 +8,8 @@ const initialState = {
         password: '',
     },
 };
+
+const passwordKey = 'mod7ReactUSIP';
 
 const formReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -19,9 +22,19 @@ const formReducer = (state = initialState, action) => {
                 }
             }
         }
+        case CLEAN_FORM_DATA : {
+            return {
+                ...state,
+                formData: {
+                    ...initialState,
+                    ...action.payload
+                }
+            }
+        }
         default:
             return state;
     }
 };
 
-export default formReducer;
+export default formReducer; 
+export {passwordKey};

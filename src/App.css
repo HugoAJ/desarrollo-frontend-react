@@ -49,8 +49,10 @@ ul {
   padding: 0;
 }
 
+
 li {
   margin-right: 2rem;
+  color: white;
 }
 
 a {
@@ -140,4 +142,14 @@ form div input {
   width: 90%;
   text-align: center;
   position: relative;
+}
+.close-btn-success {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #7e4f1a;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
